@@ -1,0 +1,49 @@
+ <!DOCTYPE html>
+        <html>
+            <head>
+                <title>animation</title>
+                <style>
+                
+                    body {
+                    background-color: #222;
+                    font-family: Arial, sans-serif;
+                    padding-top: 50px;
+                }
+        .spinner{
+                    background-color: orangered;
+                    height:200px;
+                    width:200px;
+                    border-radius:50%;
+                    border:25px solid  white;
+                    border-top:20px solid indigo;
+                    animation: ani 2.5s linear infinite;
+                    display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            margin-left: 440px;
+                }
+                @keyframes ani{
+                    to{
+                        transform:rotate(360deg);
+                    }
+                }
+                .explain{
+                    font-weight:bold;
+                    color:azure;
+                    font-style: italic;
+                    text-align: center;
+                    margin-top: 30px;
+                    padding: 0 50px;
+                }
+                </style>
+                
+            </head>
+            <p>
+                
+                    <div class="spinner">
+                rajitha
+            </div>
+            </body>
+        </html>
